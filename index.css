@@ -1,11 +1,8 @@
-.name{
-	color: rgb(255, 153, 153);
+@keyframes blink {
+    from {opacity: 1}
+    to {opacity: 0}
 }
-#data{color: red;
-}
-#myId{color: rgb(255, 77, 77); 
-}
-mark {background: red; 
-}
-li {color: green;
-}
+body {font: 100% Courier New;
+    background-color: black;
+    color: #84c754;}
+mark{ animation: blink 500ms alternate infinite;}
