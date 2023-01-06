@@ -1,0 +1,8 @@
+@keyframes blink {
+    from {opacity: 1}
+    to {opacity: 0}
+}
+body {font: 100% Courier New;
+    background-color: black;
+    color: #84c754;}
+mark{ animation: blink 500ms alternate infinite;}
